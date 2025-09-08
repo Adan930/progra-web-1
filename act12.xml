@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Mapa de Imagen con Hipervínculos</title>
+</head>
+<body>
+
+<h2>Mapa de Imagen con Hipervínculos</h2>
+
+<!-- Define la imagen con un mapa asociado -->
+<img src="sistema.jpg" alt="Imagen con hipervínculos" usemap="#mapa-imagen" width="600" height="400" />
+
+<!-- Define el mapa con las áreas clickeables -->
+<map name="mapa-imagen">
+  <!-- Área rectangular -->
+  <area shape="rect" coords="50,50,150,150" href="https://www.ejemplo1.com" alt="Ejemplo 1" />
+  
+  <!-- Área circular -->
+  <area shape="circle" coords="300,200,50" href="https://www.ejemplo2.com" alt="Ejemplo 2" />
+  
+  <!-- Área poligonal -->
+  <area shape="poly" coords="400,100, 500,100, 550,150, 450,200" href="https://www.ejemplo3.com" alt="Ejemplo 3" />
+</map>
+
+</body>
+</html>
